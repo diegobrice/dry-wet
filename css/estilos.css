@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: DalekPinpointBold;
+    src: url(../fonts/DalekPinpointBold.ttf);
+}
+
+html, body {
+    font-family:  Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+	background: hsla(0,0%,0%,1.00);
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	position: relative;
+}
+
+body > section {
+	clear: both;
+	padding-bottom: 50px;
+}
+
+nav.navbar {
+	font-family: DalekPinpointBold;
+    background-color: #000000;
+	font-size: 22px;
+	height: 90px;
+}
+
+#titulo-novedades, #titulo-trabajos, #titulo-servicios, #titulo-nosotros, #titulo-contacto {
+	font-family: DalekPinpointBold;
+	margin: 0 auto;
+}
+
+section#Trabajos {
+	height: 1080px;
+	background-image: url(../images/IMG_8933.JPG);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+.video-fluid {
+  width: 100%;
+  height: auto;	
+  z-index: -100;
+	overflow: hidden;
+}
+
+section#Contacto {
+	height: 392px;
+	background-image: url(../images/../images/sino.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+#titulo-contacto {
+	margin: none;
+	margin-bottom: 0px;
+}
+
+
+
+
+.panel-footer {
+	background-color: #000000;
+}
+
+.footer-copyright {
+	background-color: #000000;
+	height: 25px;
+}
